@@ -4,7 +4,7 @@ A gravitational N-body simulation written in C++, rendered with [raylib](https:/
 
 ## Features
 
-- Gravitational attraction between all stars (`O(n²)`)
+- Gravitational attraction between all stars (`O(nÂ²)`)
 - Stars merge on collision
 - Toggle between 2D and 3D view with `TAB`
 - Free-fly camera in 3D (`WASD` + mouse)
@@ -14,8 +14,8 @@ A gravitational N-body simulation written in C++, rendered with [raylib](https:/
 The project uses CMake, with raylib pulled in as a submodule under `third_party/raylib`.
 
 ```bash
-git clone --recurse-submodules <url>
-cd nbody-stars
+git clone --recurse-submodules https://github.com/MrEffectDev/nbody-simulation.git
+cd nbody-simulation
 cmake -B build
 cmake --build build --config Release
 ```
